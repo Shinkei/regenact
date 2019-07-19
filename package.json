@@ -1,6 +1,6 @@
 {
   "name": "regenact",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Node script that creates a boilerplate application for a new react project",
   "main": "index.js",
   "scripts": {
