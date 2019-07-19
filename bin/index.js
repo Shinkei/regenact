@@ -19,7 +19,7 @@ shell.echo(chalk.magenta(`Cleaning Git Info 🧹`))
 shell.cd(projectName)
 shell.rm('-rf', '.git')
 
-const packageRoute = path.join(__dirname, `/${projectName}/package.json`)
+const packageRoute = path.join(process.cwd(), `/package.json`)
 // wait until the repo is cloned
 shell.echo(chalk.gray(`Waiting... 😤`))
 const now = Date.now()
